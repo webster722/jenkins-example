@@ -12,5 +12,9 @@ pipeline{
             }
             
         }
+
+        stage('User Input'){
+            input('Do you want to proceed?')
+        }
     }
 }
